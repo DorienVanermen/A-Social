@@ -1,0 +1,133 @@
+/* COLOUR REFERENCES
+
+    $cerulean: #0091D3
+    $cerulean-light: #00A0D3
+    $deep-cerulean: #007FA3 <
+    $monte-carlo: #7FCAD3
+    $blue-lagoon: #008C95
+
+    $black-pearl: #081F2C
+
+    $twitter: #00ACED
+    $facebook: #3B5998
+*/
+
+/*----------- GENERAL ------------*/
+
+/* Sun Antwerpen */
+@font-face {
+    font-family: sun5;
+    src: url(../fonts/SunAntwerpen_500.woff);
+}
+
+@font-face {
+    font-family: sun5;
+    src: url(../fonts/SunAntwerpen_500.eot);
+}
+
+@font-face {
+    font-family: sun5;
+    src: url("../fonts/SunAntwerpen_500.svg#SunAntwerpen_500") format("svg");
+}
+
+/* Antwerpen Tall */
+@font-face {
+    font-family: antwT;
+    src: url(../fonts/AntwerpenTall-Tall.woff);
+}
+
+@font-face {
+    font-family: antwT;
+    src: url(../fonts/AntwerpenTall-Tall.eot);
+}
+
+@font-face {
+    font-family: antwT;
+    src: url("../fonts/AntwerpenTall-Tall.svg#AntwerpenTall-Tall") format("svg");
+}
+
+
+body{
+    margin-top:50px;
+    font-family: sun5, Georgia, sans-serif;
+
+}
+
+/* ------------- GLOBAL -------------*/
+
+
+
+nav li, .hero-text{
+    font-family:antwT, Georgia, sans-serif;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: #007FA3;
+    border-color: #007FA3;
+}
+
+/* brand navbar */
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    font-family:antwT, Georgia, sans-serif;
+}
+
+/* navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+/* navbar active item */
+.navbar-default .navbar-nav > .active{
+    color: #007FA3;
+    background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #007FA3;
+    background-color: #ffffff;
+}
+
+
+
+/* navbar item hover */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color:#007FA3;
+    background-color: #ffffff;
+}
+
+
+
+/* mobile burger menu */
+.navbar-default .navbar-toggle {
+    background-color: #ffffff;
+}
+
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #007FA3;
+}
+
+
+
+/* ------------- HERO ----------- */
+.hero-image{
+    background-image: url(../img/studHero.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top:20%;
+}
+.hero-text {
+    float:right;
+    background: rgba(0,0,0,0.4);
+    color: white;
+    padding-right:5%;
+    padding-left:80.3%;
+}
+
