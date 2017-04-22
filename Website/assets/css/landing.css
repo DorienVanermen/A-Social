@@ -136,7 +136,7 @@ nav li, .hero-text{
 /*-------- FOOTER ---------*/
 
 footer{
-    background: #007FA3;
+    background: transparent;
     color:white;
     padding:20px 0 10px;
     font-size:12px;
@@ -202,6 +202,17 @@ i{
     margin-top:0px;
 }
 
+/*-------- HOME ----------*/
+body.hp{
+
+    background-image: url(../../assets/img/mock-up.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    padding-top:600px;
+
+}
 
 
 
