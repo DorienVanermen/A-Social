@@ -131,3 +131,35 @@ nav li, .hero-text{
     padding-left:80.3%;
 }
 
+/*-------- FOOTER ---------*/
+
+footer{
+    background: #007FA3;
+    color:white;
+    padding:20px 0 10px;
+    font-size:12px;
+}
+
+footer p{
+    margin:0;
+}
+
+i{
+    padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
