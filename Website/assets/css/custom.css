@@ -50,7 +50,6 @@
 body{
     margin-top:50px;
     font-family: sun5, Georgia, sans-serif;
-
 }
 
 /* ------------- GLOBAL -------------*/
@@ -116,7 +115,7 @@ nav li, .hero-text{
 
 /* ------------- HERO ----------- */
 .hero-image{
-    background-image: url(../img/studHero.jpeg);
+    background-image: url(../img/meeting.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,10 +148,10 @@ i{
 }
 
 
+/*-------- HOME ----------*/
+.homebg img{
 
-
-
-
+}
 
 
 
