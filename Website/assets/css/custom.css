@@ -12,9 +12,12 @@
     $facebook: #3B5998
 */
 
+
 /*----------- GENERAL ------------*/
 
+
 /* Sun Antwerpen */
+
 @font-face {
     font-family: sun5;
     src: url(../fonts/SunAntwerpen_500.woff);
@@ -30,7 +33,9 @@
     src: url("../fonts/SunAntwerpen_500.svg#SunAntwerpen_500") format("svg");
 }
 
+
 /* Antwerpen Tall */
+
 @font-face {
     font-family: antwT;
     src: url(../fonts/AntwerpenTall-Tall.woff);
@@ -46,115 +51,183 @@
     src: url("../fonts/AntwerpenTall-Tall.svg#AntwerpenTall-Tall") format("svg");
 }
 
-
-body{
-    margin-top:50px;
+body {
+    margin-top: 50px;
     font-family: sun5, Georgia, sans-serif;
 }
 
+
 /* ------------- GLOBAL -------------*/
 
-
-
-nav li, .hero-text{
-    font-family:antwT, Georgia, sans-serif;
+nav li,
+.hero-text {
+    font-family: antwT, Georgia, sans-serif;
 }
 
+
 /* navbar */
+
 .navbar-default {
     background-color: #007FA3;
     border-color: #007FA3;
 }
 
+
 /* brand navbar */
+
 .navbar-default .navbar-brand {
     color: #ffffff;
-    font-family:antwT, Georgia, sans-serif;
+    font-family: antwT, Georgia, sans-serif;
 }
 
+
 /* navbar links */
-.navbar-default .navbar-nav > li > a {
+
+.navbar-default .navbar-nav>li>a {
     color: #ffffff;
 }
 
+
 /* navbar active item */
-.navbar-default .navbar-nav > .active{
-    color: #007FA3;
-    background-color: #ffffff;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+
+.navbar-default .navbar-nav>.active {
     color: #007FA3;
     background-color: #ffffff;
 }
 
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #007FA3;
+    background-color: #ffffff;
+}
 
 
 /* navbar item hover */
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color:#007FA3;
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #007FA3;
     background-color: #ffffff;
 }
-
 
 
 /* mobile burger menu */
+
 .navbar-default .navbar-toggle {
     background-color: #ffffff;
 }
-
-
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #007FA3;
 }
 
 
-
 /* ------------- HERO ----------- */
-.hero-image{
+
+.hero-image {
     background-image: url(../img/meeting.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding-top:20%;
+    padding-top: 20%;
 }
+
+.breadcrumbs {
+    padding-left: 2rem;
+}
+
+.breadcrumbs p,
+.breadcrumbs a {
+    font-weight: bold;
+}
+
+.breadcrumbs p {
+    color: #000000;
+}
+
+.breadcrumbs a {
+    color: #0064B4;
+}
+
 .hero-text {
-    float:right;
-    background: rgba(0,0,0,0.4);
+    float: right;
+    background: rgba(0, 0, 0, 0.4);
     color: white;
-    padding-right:5%;
-    padding-left:80.3%;
+    padding-right: 5%;
+    padding-left: 80.3%;
+    /* ------------- FIX ----------- */
+    width: 100%;
 }
+
+
+/* ------------- STUDEREN ----------- */
+
+#main {
+    margin-bottom: 14rem;
+}
+
+#main h2 {
+    /* Horizonatle padding moet hetzelfde blijvens als '.campus span' top,right,bottom,left*/
+    padding: 2rem 1rem;
+}
+
+.campus {
+    padding: 12px;
+    height: 200px;
+}
+
+.campus h3 {
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: rgb(0, 0, 0) solid 2px;
+    transition: 0.2s;
+    color: #000000;
+    font-weight: bold;
+    padding: 7rem 2rem 0rem 2rem;
+}
+
+.campus h3:hover {
+    transition: 0.2s;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.campus img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 /*-------- FOOTER ---------*/
 
-footer{
+footer {
     background: #007FA3;
-    color:white;
-    padding:20px 0 10px;
-    font-size:12px;
-
+    color: white;
+    padding: 20px 0 10px;
+    font-size: 12px;
 }
 
-footer p{
-    margin:0;
+footer p {
+    margin: 0;
 }
 
-i{
-    padding:10px;
+i {
+    padding: 10px;
 }
 
 
+/*-------- Media Query ---------*/
 
-
-
-
-
-
-
-
-
+@media screen and (max-width: 540px) {
+    #main {
+        margin-bottom: 20rem;
+    }
+}
