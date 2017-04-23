@@ -64,3 +64,38 @@ function scaleBannerVideoSize(element){
 
     });
 }
+
+
+/* navbar change */
+
+
+$(document).ready(function(){
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 250) {
+            $(".navbar-fixed-top").css("background-color", "#007FA3");
+            $(".navbar-default .navbar-nav > .active").css("color","#081F2C");
+            $(".navbar-default .navbar-nav > .active").css("background-color","#007FA3");
+
+            $(".navbar-default .navbar-nav > .active > a").css("color","#081F2C");
+            $(".navbar-default .navbar-nav > .active > a").css("background-color","#007FA3");
+
+            $(".navbar-default .navbar-nav > li > a:hover").css("color","#081F2C");
+            $(".navbar-default .navbar-nav > li > a:hover").css("background-color","#007FA3");
+            $(".navbar-default .navbar-nav > li > a:focus").css("color","#081F2C");
+            $(".navbar-default .navbar-nav > li > a:focus").css("background-color","#007FA3");
+        } else {
+            $(".navbar-fixed-top").css("background-color", "transparent");
+            $(".navbar-default .navbar-nav > .active").css("color","#007FA3");
+            $(".navbar-default .navbar-nav > .active").css("background-color","transparent");
+
+            $(".navbar-default .navbar-nav > .active > a").css("color","#007FA3");
+            $(".navbar-default .navbar-nav > .active > a").css("background-color","transparent");
+
+            $(".navbar-default .navbar-nav > li > a:hover").css("color","#007FA3");
+            $(".navbar-default .navbar-nav > li > a:hover").css("background-color","transparent");
+            $(".navbar-default .navbar-nav > li > a:focus").css("color","#007FA3");
+            $(".navbar-default .navbar-nav > li > a:focus").css("background-color","transparent");
+        }
+    });
+});
+

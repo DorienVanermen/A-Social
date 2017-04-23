@@ -52,7 +52,7 @@
 }
 
 body {
-    margin-top: 50px;
+
     font-family: sun5, Georgia, sans-serif;
 }
 
@@ -69,61 +69,57 @@ nav li,
 
 
 /* navbar */
-
 .navbar-default {
-    background-color: #007FA3;
-    border-color: #007FA3;
+    background-color: transparent;
+    border-color: transparent;
 }
-
 
 /* brand navbar */
-
 .navbar-default .navbar-brand {
     color: #ffffff;
-    font-family: antwT, Georgia, sans-serif;
+    font-family:antwT, Georgia, sans-serif;
 }
 
-
 /* navbar links */
-
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
     color: #ffffff;
 }
 
-
 /* navbar active item */
-
-.navbar-default .navbar-nav>.active {
+.navbar-default .navbar-nav > .active{
     color: #007FA3;
-    background-color: #ffffff;
+    background-color:transparent;
+
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #007FA3;
+    background-color:transparent;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-    color: #007FA3;
-    background-color: #ffffff;
-}
 
 
 /* navbar item hover */
-
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus {
-    color: #007FA3;
-    background-color: #ffffff;
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color:#007FA3;
+    background-color:transparent;
 }
+
 
 
 /* mobile burger menu */
-
 .navbar-default .navbar-toggle {
-    background-color: #ffffff;
+    background-color:transparent;
 }
+
+
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #007FA3;
 }
+
 
 
 /* ------------- HERO ----------- */
@@ -147,7 +143,7 @@ nav li,
 }
 
 .breadcrumbs p {
-    color: #000000;
+    color: #081F2C;
 }
 
 .breadcrumbs a {
@@ -238,7 +234,7 @@ nav li,
 /*-------- FOOTER ---------*/
 
 footer {
-    background: #007FA3;
+    background: #081F2C;
     color: white;
     padding: 20px 0 10px;
     font-size: 12px;
@@ -260,3 +256,5 @@ i {
         margin-bottom: 20rem;
     }
 }
+
+
