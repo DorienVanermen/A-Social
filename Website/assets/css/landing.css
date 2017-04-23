@@ -150,6 +150,15 @@ i{
     padding:10px;
 }
 
+.fb:hover{
+    color:#3B5998;
+}
+.insta:hover{
+    color:#e95950;
+}
+.tw:hover{
+    color:#00ACED;
+}
 
 /*------------- LANDING PAGE -----------------*/
 
