@@ -76,8 +76,8 @@ $(document).ready(function(){
             $(".navbar-default .navbar-nav > .active").css("color","#081F2C");
             $(".navbar-default .navbar-nav > .active").css("background-color","#007FA3");
 
-            $(".navbar-default .navbar-nav > .active > a").css("color","#081F2C");
-            $(".navbar-default .navbar-nav > .active > a").css("background-color","#007FA3");
+            $(".navbar-default .navbar-nav > .active > a").css("color","#ffffff");
+            $(".navbar-default .navbar-nav > .active > a").css("background-color","#081F2C");
 
             $(".navbar-default .navbar-nav > li > a:hover").css("color","#081F2C");
             $(".navbar-default .navbar-nav > li > a:hover").css("background-color","#007FA3");

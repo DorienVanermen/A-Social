@@ -27,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/post.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -80,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1327">
-              <caret line="73" column="40" lean-forward="false" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+            <state relative-caret-position="402">
+              <caret line="78" column="79" lean-forward="false" selection-start-line="78" selection-start-column="79" selection-end-line="78" selection-end-column="79" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
               </folding>
@@ -139,13 +139,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/landingpage.html" />
-        <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/css/landing.css" />
         <option value="$PROJECT_DIR$/studeren.html" />
         <option value="$PROJECT_DIR$/assets/css/custom.css" />
         <option value="$PROJECT_DIR$/studenten.html" />
         <option value="$PROJECT_DIR$/post.html" />
+        <option value="$PROJECT_DIR$/assets/js/main.js" />
       </list>
     </option>
   </component>
@@ -185,6 +185,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -346,12 +364,12 @@
       <updated>1492856657677</updated>
       <workItem from="1492856659046" duration="12615000" />
       <workItem from="1492869446279" duration="8791000" />
-      <workItem from="1492938763967" duration="14590000" />
+      <workItem from="1492938763967" duration="15632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35996000" />
+    <option name="totallyTimeSpent" value="37038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1918" height="1024" extended-state="0" />
@@ -531,16 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1327">
-          <caret line="73" column="40" lean-forward="false" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/landingpage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -575,14 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="202" column="42" lean-forward="false" selection-start-line="202" selection-start-column="42" selection-end-line="202" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/studenten.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
@@ -600,6 +600,24 @@
           <folding>
             <element signature="e#2736#2740#0" expanded="true" />
             <element signature="e#2821#2825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="202" column="42" lean-forward="false" selection-start-line="202" selection-start-column="42" selection-end-line="202" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="78" column="79" lean-forward="false" selection-start-line="78" selection-start-column="79" selection-end-line="78" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
           </folding>
         </state>
       </provider>
