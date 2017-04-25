@@ -2,8 +2,11 @@
  * Created by Andreea on 22/04/2017.
  */
 //jQuery is required to run this code
+
+
 $( document ).ready(function() {
 
+    navChange();
     scaleVideoContainer();
 
     initBannerVideoSize('.video-container .poster img');
@@ -68,21 +71,31 @@ function scaleBannerVideoSize(element){
 
 /* navbar change */
 
+function navChange() {
 
-$(document).ready(function(){
+
+    //var heroHeight = document.getElementById('myHero').style.height;
+
+
     $(window).scroll(function() {
+
+
         if ($(document).scrollTop() > 250) {
             $(".navbar-fixed-top").css("background-color", "#007FA3");
             $(".navbar-default .navbar-nav > .active").css("color","#081F2C");
             $(".navbar-default .navbar-nav > .active").css("background-color","#007FA3");
 
-            $(".navbar-default .navbar-nav > .active > a").css("color","#ffffff");
-            $(".navbar-default .navbar-nav > .active > a").css("background-color","#081F2C");
+            $(".navbar-default .navbar-nav > .active > a").css("color", "#ffffff");
+            $(".navbar-default .navbar-nav > .active > a").css("background-color", "#081F2C");
 
-            $(".navbar-default .navbar-nav > li > a:hover").css("color","#081F2C");
-            $(".navbar-default .navbar-nav > li > a:hover").css("background-color","#007FA3");
-            $(".navbar-default .navbar-nav > li > a:focus").css("color","#081F2C");
-            $(".navbar-default .navbar-nav > li > a:focus").css("background-color","#007FA3");
+
+
+/*              $(".navbar-default .navbar-nav > li > a:hover").css("color","#ffffff");
+            $(".navbar-default .navbar-nav > li > a:hover").css("background-color","#081F2C");
+
+            $(".navbar-default .navbar-nav > li > a:focus").css("color","#ffffff");
+            $(".navbar-default .navbar-nav > li > a:focus").css("background-color","#081F2C");*/
+
         } else {
             $(".navbar-fixed-top").css("background-color", "transparent");
             $(".navbar-default .navbar-nav > .active").css("color","#007FA3");
@@ -91,11 +104,14 @@ $(document).ready(function(){
             $(".navbar-default .navbar-nav > .active > a").css("color","#007FA3");
             $(".navbar-default .navbar-nav > .active > a").css("background-color","transparent");
 
-            $(".navbar-default .navbar-nav > li > a:hover").css("color","#007FA3");
-            $(".navbar-default .navbar-nav > li > a:hover").css("background-color","transparent");
-            $(".navbar-default .navbar-nav > li > a:focus").css("color","#007FA3");
-            $(".navbar-default .navbar-nav > li > a:focus").css("background-color","transparent");
+/*            $(".navbar-default .navbar-nav > li > a:hover").css("color", "#007FA3");
+            $(".navbar-default .navbar-nav > li > a:hover").css("background-color", "#transparent");
+
+            $(".navbar-default .navbar-nav > li > a:focus").css("color", "#007FA3");
+            $(".navbar-default .navbar-nav > li > a:focus").css("background-color", "#transparent");*/
+
+
         }
     });
-});
+};
 
