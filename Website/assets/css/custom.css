@@ -132,13 +132,16 @@ nav li,
 
 @media only screen and (max-width: 766px) {
     .collapsing, .in {background-color: #007FA3;}
-    .collapsing ul li a, .in ul li a {color: #ffffff!important;}
-    .collapsing ul li a:hover, .in ul li a:hover {background-color: #081F2C!important;}
-    .collapsing .active a , .in .active a {background-color: #081F2C!important;}
+    .collapsing ul li a, .in ul li a {color: #ffffff;}
+    .collapsing ul li a:hover, .in ul li a:hover {background-color: #081F2C;}
+    .collapsing .active a , .in .active a {background-color: #081F2C;}
 }
 
 
 /* ------------- HERO ----------- */
+.row{
+    margin:0;
+}
 
 .hero-image {
     background-image: url(../img/meeting.jpg);
@@ -167,14 +170,23 @@ nav li,
 }
 
 .hero-text {
-    float: right;
+    float:right;
     background: rgba(0, 0, 0, 0.4);
     color: white;
-    padding-right: 5%;
-    padding-left: 80.3%;
+
     /* ------------- FIX ----------- */
     width: 100%;
+
+
+
 }
+
+.hero-text h1{
+    text-align:right;
+    padding-right: 5%;
+}
+
+
 
 
 /* ------------- STUDEREN ----------- */
@@ -229,9 +241,9 @@ nav li,
 
 .artikel {
     border: lightgray 1px solid;
-    margin-bottom:2rem;
+    margin-bottom:2em;
     margin-right:2em;
-    padding:0px;
+    padding:0;
 }
 
 .artikel h2{
@@ -240,12 +252,13 @@ nav li,
     margin:0 0.5em 0 0.5em;
 }
 
-
 .meer{
-    float:right;
+    text-align:right;
     color:#007FA3;
     margin-right:1em;
 }
+
+
 
 
 /*-------- POST ----------*/

@@ -72,13 +72,10 @@ function scaleBannerVideoSize(element){
 /* navbar change */
 
 function navChange() {
-
-
-    //var heroHeight = document.getElementById('myHero').style.height;
+    //var heroHeight = document.getElementById('myHero').clientHeight;
 
 
     $(window).scroll(function() {
-
 
         if ($(document).scrollTop() > 250) {
             $(".navbar-fixed-top").css("background-color", "#007FA3");
