@@ -6,7 +6,7 @@
 
 $( document ).ready(function() {
 
-    navChange();
+    //navChange();
     scaleVideoContainer();
 
     initBannerVideoSize('.video-container .poster img');
@@ -71,6 +71,7 @@ function scaleBannerVideoSize(element){
 
 /* navbar change */
 
+/*
 function navChange() {
     //var heroHeight = document.getElementById('myHero').clientHeight;
 
@@ -87,11 +88,11 @@ function navChange() {
 
 
 
-/*              $(".navbar-default .navbar-nav > li > a:hover").css("color","#ffffff");
+/!*              $(".navbar-default .navbar-nav > li > a:hover").css("color","#ffffff");
             $(".navbar-default .navbar-nav > li > a:hover").css("background-color","#081F2C");
 
             $(".navbar-default .navbar-nav > li > a:focus").css("color","#ffffff");
-            $(".navbar-default .navbar-nav > li > a:focus").css("background-color","#081F2C");*/
+            $(".navbar-default .navbar-nav > li > a:focus").css("background-color","#081F2C");*!/
 
         } else {
             $(".navbar-fixed-top").css("background-color", "transparent");
@@ -101,14 +102,37 @@ function navChange() {
             $(".navbar-default .navbar-nav > .active > a").css("color","#007FA3");
             $(".navbar-default .navbar-nav > .active > a").css("background-color","transparent");
 
-/*            $(".navbar-default .navbar-nav > li > a:hover").css("color", "#007FA3");
+/!*            $(".navbar-default .navbar-nav > li > a:hover").css("color", "#007FA3");
             $(".navbar-default .navbar-nav > li > a:hover").css("background-color", "#transparent");
 
             $(".navbar-default .navbar-nav > li > a:focus").css("color", "#007FA3");
-            $(".navbar-default .navbar-nav > li > a:focus").css("background-color", "#transparent");*/
+            $(".navbar-default .navbar-nav > li > a:focus").css("background-color", "#transparent");*!/
 
 
         }
     });
-};
+*/
+
+
+
+/*----------------------- PARALLAX --------------------*/
+/* to use: add data-type="background" & data-speed="5"
+* + must have background with fixed*/
+
+$(function(){
+    var $window = $(window);
+
+    $('section[data-type="background"]').each(function(){
+        var $bgobj = $(this);
+
+        $(window).scroll(function(){
+            var yPos = -($window.scrollTop() /
+            $bgobj.data('speed'));
+
+            var coords='50% '+ yPos + 'px';
+
+            $bgobject.css({ backgroundPosition: coords });
+        });
+    });
+})
 
