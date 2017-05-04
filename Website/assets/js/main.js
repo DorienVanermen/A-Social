@@ -116,7 +116,7 @@ function navChange() {
 
 
 /*----------------------- PARALLAX --------------------*/
-/* to use: add data-type="background" & data-speed="5"
+/* to use: add data-type="background" data-speed="5"
 * + must have background with fixed*/
 
 $(function(){
