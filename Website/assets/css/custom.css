@@ -455,19 +455,13 @@ i {
     color:white;
 }
 
-
-
-
-
 #nieuws-post{
     padding-top:2%;
     background-color:#007FA3;
     min-height:400px;
 
 }
-.nieuws-post-text{
 
-}
 .nieuws-post-text h3{
     text-align:center;
     margin-bottom:5%;
@@ -543,14 +537,135 @@ i {
 
 /*------------------------ TESTIMONIAL PAGINA ---------------------------*/
 
+.testimonials-foto img{
+    width:100%;
+}
+
+.testimonials-foto{
+    width:45%;
+    float:left;
+    display:inline-block;
+}
+
+.testimonials-text{
+    width:45%;
+    display:inline-block;
+    float:right;
+    margin-right:3%;
+    margin-top:3%;
+}
+
+.testimonials-text p{
+    text-align: left;
+}
+.testimonials-text h3{
+    text-align: center;
+}
+
+#testimonial-12{
+    background-color:#F9B01E;
+    min-height:380px;
+}
 
 
 
+.testimonial-6-l{
+    background-color:#007FA3;
+    min-height:380px;
+    width:49%;
+    display:inline-block;
+}
+
+
+.testimonial-6-l .testimonials-foto  {
+    width: 50%;
+}
+.testimonial-6-l .testimonials-text {
+    width:40%;
+    float:left;
+    padding-left:10%;
+}
+
+
+.testimonial-6-l .testimonials-foto {
+    width:50%;
+}
+
+
+/*--rechts--*/
+.testimonial-6-r{
+    background-color:#007FA3;
+    min-height:380px;
+    width:49%;
+    display:inline-block;
+}
+
+
+.testimonial-6-r .testimonials-foto  {
+    width: 50%;
+}
+
+
+.testimonial-6-r .testimonials-foto {
+    width:50%;
+}
+.testimonial-6-r .testimonials-text {
+    width:40%;
+    float:left;
+    padding-left:10%;
+}
+
+/*------------------- STUDIEAANBOD ---------------*/
+
+
+.filtering{
+    background-color:#F9B01E;
+    min-height:200px;
+}
 
 
 
+.scholen{
+    padding-left:5%;
+    display:inline-block;
+    width:40%;
+    float:left;
+}
+
+.interesse{
+    display:inline-block;
+    width:40%;
+    float:right;
+    padding-right:5%;
+}
+
+.filtering label{
+    color:white;
+}
+
+.studierichtingen{
+     padding-top:2%;
+     background-color:#007FA3;
+     min-height:500px;
+ }
 
 
+.richting{
+    //background-color:red;
+    display:inline-block;
+    width:40%;
+    padding-left:5%;
+}
+.richt{
+    display:inline-block;
+}
 
+.richting a{
+    color:white;
+    text-decoration: underline;
 
-
+}
+.slinks{
+    display:inline-block;
+    padding-left:10%;
+}
