@@ -1,0 +1,428 @@
+fileFormatVersion: 2
+guid: 9c9d020bd44434414a24ea34f57a6c7a
+timeCreated: 1495105674
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BatSpriteSheet_0
+    21300002: BatSpriteSheet_1
+    21300004: BatSpriteSheet_2
+    21300006: BatSpriteSheet_3
+    21300008: BatSpriteSheet_4
+    21300010: BatSpriteSheet_5
+    21300012: BatSpriteSheet_6
+    21300014: BatSpriteSheet_7
+    21300016: BatSpriteSheet_8
+    21300018: BatSpriteSheet_10
+    21300020: BatSpriteSheet_11
+    21300022: BatSpriteSheet_12
+    21300024: BatSpriteSheet_13
+    21300026: BatSpriteSheet_14
+    21300028: BatSpriteSheet_15
+    21300030: BatSpriteSheet_16
+    21300032: BatSpriteSheet_17
+    21300034: BatSpriteSheet_18
+    21300036: BatSpriteSheet_19
+    21300038: BatSpriteSheet_20
+    21300040: BatSpriteSheet_21
+    21300042: BatSpriteSheet_22
+    21300044: BatSpriteSheet_23
+    21300046: BatSpriteSheet_24
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BatSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3317
+        width: 505
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 3360
+        width: 561
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 3392
+        width: 560
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 3397
+        width: 557
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2600
+        width: 560
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 2524
+        width: 380
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 2500
+        width: 286
+        height: 573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 2540
+        width: 237
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1758
+        width: 237
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1771
+        width: 265
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 1778
+        width: 319
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 1811
+        width: 351
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1309
+        width: 368
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1274
+        width: 351
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1231
+        width: 319
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 1257
+        width: 265
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 708
+        width: 239
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 645
+        width: 238
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 604
+        width: 285
+        height: 573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 648
+        width: 378
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 134
+        width: 561
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 96
+        width: 560
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 68
+        width: 560
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 0
+        width: 560
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
