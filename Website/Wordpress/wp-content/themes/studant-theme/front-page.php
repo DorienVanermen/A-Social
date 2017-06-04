@@ -341,36 +341,32 @@ include 'search-function.php';
             </div>
 
             <div class="col-sm-6">
+
                 <div class="game-icons">
-
-                    <div class="icon-wrapper">
-
+                    <div class="icon-wrapper-game-upper">
                         <img src="<?php bloginfo('template_url'); ?>/img/icon/map.png" alt="kaart">
                         <h4>Ontdek Antwerpen</h4>
-
-
                     </div>
 
-                    <div class="icon-wrapper small-icon">
-
+                    <div class="icon-wrapper-game">
                         <img src="<?php bloginfo('template_url'); ?>/img/icon/collect.png" alt="colllectables">
                         <h4>Verzamel alle collectables</h4>
 
-
-                        <div class="icon-wrapper small-icon">
-
-                            <img src="<?php bloginfo('template_url'); ?>/img/icon/check.png" alt="trivia">
-                            <h4>Beantwoordt de trivia vragen</h4>
-
-                        </div>
-
                     </div>
+                    <div class="icon-wrapper-game">
+
+                        <img src="<?php bloginfo('template_url'); ?>/img/icon/check.png" alt="trivia">
+                        <h4>Beantwoordt de trivia vragen</h4>
+                    </div>
+
                 </div>
 
-                <div class="store">
-                    <a href=""><img src="<?php bloginfo('template_url'); ?>/img/icon/playstore.png" alt="trivia"></a>
-                    <a href=""><img src="<?php bloginfo('template_url'); ?>/img/icon/appstore.png" alt="trivia"></a>
-                </div>
+            </div>
+
+            <div class="store">
+                <a href=""><img src="<?php bloginfo('template_url'); ?>/img/icon/playstore.png" alt="trivia"></a>
+                <a href=""><img src="<?php bloginfo('template_url'); ?>/img/icon/appstore.png" alt="trivia"></a>
+             </div>
 
             </div>
 
