@@ -860,6 +860,10 @@ td a:hover {
     color: #ffffff;
 }
 
+.table {
+    width: 1170px;
+}
+
 .table>tbody>tr>td {
     text-decoration: none;
     margin: 0;
@@ -875,7 +879,7 @@ td a {
     display: block;
     height: 100%;
     width: 100%;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem;
 }
 
 td span {
@@ -886,6 +890,10 @@ td span {
 .results {
     background-color: #0091D3;
     overflow-x: auto;
+}
+
+tr {
+    width: 100%;
 }
 
 /*---------------------------------------404--------------------------------------*/
