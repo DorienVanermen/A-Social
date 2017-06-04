@@ -1,10 +1,14 @@
 jQuery(document).ready(function($) {
 
     $("#onderwijsTable").dataTable({
-        "stateSave":true,
+        "stateSave":false,
         "searching": false,
         "bInfo": false,
+        "autoWidth": true,
         "bLengthChange":false,
+        "pageLength": 25,
+        "iDisplayLength": 25,
+        "scrollX": true,
         "language": {
             "loadingRecords": "Laden...",
             "lengthMenu": "Aantal rijen _MENU_",
