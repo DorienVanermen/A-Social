@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: d2604dc45daf9b948aa7b738d1c166df
+timeCreated: 1492517983
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: SunAntwerpen
+  fontNames:
+  - SunAntwerpen
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 463eac019bfc1a44db2c6015140dc69f, type: 3}
+  - {fileID: 12800000, guid: b43b6e81e5d768c48aca1cad1d78d135, type: 3}
+  - {fileID: 12800000, guid: a84d76f2e01977d4abff25832cf5b058, type: 3}
+  - {fileID: 12800000, guid: 6995af151c48adc4d9c3953b5620481e, type: 3}
+  - {fileID: 12800000, guid: a5228455a8aa5c34fb08137423aa9c18, type: 3}
+  - {fileID: 12800000, guid: 27f301eb714551248951ce6d241511a9, type: 3}
+  - {fileID: 12800000, guid: 992d9b2dca2b2684f9a97aedf35a99fb, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

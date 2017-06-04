@@ -1,0 +1,708 @@
+fileFormatVersion: 2
+guid: 95ca1134a7b59408abac516a480ed5c4
+timeCreated: 1495289536
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CharacterHitsWall_0
+    21300002: CharacterHitsWall_1
+    21300004: CharacterHitsWall_2
+    21300006: CharacterHitsWall_3
+    21300008: CharacterHitsWall_5
+    21300010: CharacterHitsWall_6
+    21300012: CharacterHitsWall_7
+    21300014: CharacterHitsWall_8
+    21300016: CharacterHitsWall_9
+    21300018: CharacterHitsWall_10
+    21300020: CharacterHitsWall_11
+    21300022: CharacterHitsWall_12
+    21300024: CharacterHitsWall_13
+    21300026: CharacterHitsWall_14
+    21300028: CharacterHitsWall_15
+    21300030: CharacterHitsWall_16
+    21300032: CharacterHitsWall_17
+    21300034: CharacterHitsWall_18
+    21300036: CharacterHitsWall_19
+    21300038: CharacterHitsWall_20
+    21300040: CharacterHitsWall_21
+    21300042: CharacterHitsWall_22
+    21300044: CharacterHitsWall_23
+    21300046: CharacterHitsWall_24
+    21300048: CharacterHitsWall_25
+    21300050: CharacterHitsWall_26
+    21300052: CharacterHitsWall_27
+    21300054: CharacterHitsWall_28
+    21300056: CharacterHitsWall_29
+    21300058: CharacterHitsWall_30
+    21300060: CharacterHitsWall_31
+    21300062: CharacterHitsWall_32
+    21300064: CharacterHitsWall_33
+    21300066: CharacterHitsWall_34
+    21300068: CharacterHitsWall_35
+    21300070: CharacterHitsWall_36
+    21300072: CharacterHitsWall_37
+    21300074: CharacterHitsWall_38
+    21300076: CharacterHitsWall_39
+    21300078: CharacterHitsWall_40
+    21300080: CharacterHitsWall_41
+    21300082: CharacterHitsWall_42
+    21300084: CharacterHitsWall_43
+    21300086: CharacterHitsWall_44
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CharacterHitsWall_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1036
+        width: 89
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1036
+        width: 89
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_2
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1036
+        width: 89
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1036
+        width: 88
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_5
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1036
+        width: 88
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_6
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1036
+        width: 88
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_7
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1061
+        width: 115
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_8
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1083
+        width: 153
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_9
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1070
+        width: 170
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_10
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 1070
+        width: 170
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_11
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 1070
+        width: 169
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_12
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 1070
+        width: 168
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 746
+        width: 169
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_14
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 746
+        width: 169
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_15
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 746
+        width: 170
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_16
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 746
+        width: 170
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_17
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 746
+        width: 169
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_18
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 746
+        width: 170
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_19
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 746
+        width: 169
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_20
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 746
+        width: 169
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 479
+        width: 168
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_22
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 479
+        width: 170
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_23
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 479
+        width: 169
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_24
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 479
+        width: 170
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_25
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 473
+        width: 169
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_26
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 473
+        width: 169
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_27
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 473
+        width: 169
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_28
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 473
+        width: 170
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_29
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 272
+        width: 169
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_30
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 272
+        width: 169
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_31
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 272
+        width: 170
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_32
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 272
+        width: 169
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_33
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 272
+        width: 169
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_34
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 272
+        width: 170
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_35
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 272
+        width: 169
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_36
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 272
+        width: 169
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 168
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_38
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 5
+        width: 170
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_39
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 5
+        width: 169
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_40
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 5
+        width: 170
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_41
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 0
+        width: 169
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_42
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 0
+        width: 169
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_43
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 0
+        width: 169
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterHitsWall_44
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 0
+        width: 170
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

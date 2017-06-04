@@ -1,0 +1,428 @@
+fileFormatVersion: 2
+guid: 9c26d6303c4de4a5c9c84a976768c3e6
+timeCreated: 1495558480
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CharacterFalling_0
+    21300002: CharacterFalling_1
+    21300004: CharacterFalling_2
+    21300006: CharacterFalling_3
+    21300008: CharacterFalling_4
+    21300010: CharacterFalling_5
+    21300012: CharacterFalling_6
+    21300014: CharacterFalling_7
+    21300016: CharacterFalling_8
+    21300018: CharacterFalling_9
+    21300020: CharacterFalling_10
+    21300022: CharacterFalling_11
+    21300024: CharacterFalling_12
+    21300026: CharacterFalling_13
+    21300028: CharacterFalling_14
+    21300030: CharacterFalling_15
+    21300032: CharacterFalling_16
+    21300034: CharacterFalling_17
+    21300036: CharacterFalling_18
+    21300038: CharacterFalling_19
+    21300040: CharacterFalling_20
+    21300042: CharacterFalling_21
+    21300044: CharacterFalling_22
+    21300046: CharacterFalling_23
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CharacterFalling_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 490
+        width: 84
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 490
+        width: 76
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_2
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 490
+        width: 77
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 490
+        width: 81
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_4
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 490
+        width: 76
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_5
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 490
+        width: 77
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_6
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 490
+        width: 84
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_7
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 490
+        width: 76
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_8
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 490
+        width: 77
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_9
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 490
+        width: 81
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_10
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 490
+        width: 76
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_11
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 490
+        width: 76
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 84
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_13
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 152
+        width: 76
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_14
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 152
+        width: 77
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_15
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 152
+        width: 81
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_16
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 152
+        width: 76
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_17
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 152
+        width: 77
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_18
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 152
+        width: 84
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_19
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 152
+        width: 76
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_20
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 152
+        width: 77
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_21
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 152
+        width: 81
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_22
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 152
+        width: 76
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterFalling_23
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 152
+        width: 76
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

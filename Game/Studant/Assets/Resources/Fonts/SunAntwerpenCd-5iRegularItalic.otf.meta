@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 1a8338455bd9e2346a8c544ec0811951
+timeCreated: 1492517983
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: SunAntwerpenCd
+  fontNames:
+  - SunAntwerpenCd
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 05b98d12f44003b4cbacd7ea1777cd03, type: 3}
+  - {fileID: 12800000, guid: 0aa2a17c36b52c44d982c67abfcab340, type: 3}
+  - {fileID: 12800000, guid: 0d33696fd1b6ad747a10e1754174bfcc, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

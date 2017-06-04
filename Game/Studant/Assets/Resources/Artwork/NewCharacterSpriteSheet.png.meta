@@ -1,0 +1,400 @@
+fileFormatVersion: 2
+guid: c35f75789230e4c93b5de5272651d317
+timeCreated: 1495276815
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NewCharacterSpriteSheet_0
+    21300002: NewCharacterSpriteSheet_1
+    21300004: NewCharacterSpriteSheet_2
+    21300006: NewCharacterSpriteSheet_3
+    21300008: NewCharacterSpriteSheet_4
+    21300010: NewCharacterSpriteSheet_5
+    21300012: NewCharacterSpriteSheet_6
+    21300014: NewCharacterSpriteSheet_7
+    21300016: NewCharacterSpriteSheet_8
+    21300018: NewCharacterSpriteSheet_9
+    21300020: NewCharacterSpriteSheet_10
+    21300022: NewCharacterSpriteSheet_11
+    21300024: NewCharacterSpriteSheet_12
+    21300026: NewCharacterSpriteSheet_13
+    21300028: NewCharacterSpriteSheet_14
+    21300030: NewCharacterSpriteSheet_15
+    21300032: NewCharacterSpriteSheet_16
+    21300034: NewCharacterSpriteSheet_17
+    21300036: NewCharacterSpriteSheet_18
+    21300038: NewCharacterSpriteSheet_19
+    21300040: NewCharacterSpriteSheet_20
+    21300042: NewCharacterSpriteSheet_21
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 755
+        width: 152
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 756
+        width: 131
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 752
+        width: 118
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 750
+        width: 104
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 758
+        width: 89
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 750
+        width: 65
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 486
+        width: 66
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 493
+        width: 89
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 491
+        width: 104
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 494
+        width: 118
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 499
+        width: 132
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 502
+        width: 152
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 510
+        width: 132
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 257
+        width: 117
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 245
+        width: 104
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 261
+        width: 88
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 251
+        width: 65
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 247
+        width: 66
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 260
+        width: 89
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 245
+        width: 104
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 117
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewCharacterSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2
+        width: 132
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
