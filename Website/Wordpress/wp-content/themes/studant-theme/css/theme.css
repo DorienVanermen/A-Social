@@ -173,6 +173,16 @@ a:hover,
     color: white;
 }
 
+.text-hero {
+    height: 100px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.text-hero h1 {
+    line-height: 100px;
+}
+
 
 /*------------ GLOBAL BUTTON -----------*/
 
@@ -285,7 +295,7 @@ div#navbar.navbar-collapse.collapse.in {
 }
 
 .navbar-collapse {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 @media only screen and (max-width: 766px) {
@@ -298,7 +308,7 @@ div#navbar.navbar-collapse.collapse.in {
 
 /* ------------- Pagina's ----------- */
 
-.wp-pagenavi {
+.wp-pagenavi, .dataTables_paginate {
     padding: 2rem 0;
 	clear: both;
     text-align: center;
@@ -306,12 +316,13 @@ div#navbar.navbar-collapse.collapse.in {
     font-size: 18px;
 }
 
-.wp-pagenavi a, .wp-pagenavi span {
+.wp-pagenavi a, .wp-pagenavi span, .dataTables_paginate a {
     color: #ffffff;
 	text-decoration: none;
     width: 100%;
 	padding: 3px 5px;
 	margin: 2px;
+    cursor: pointer;
 }
 
 .wp-pagenavi a:hover, .wp-pagenavi span.current {
@@ -321,7 +332,6 @@ div#navbar.navbar-collapse.collapse.in {
 .wp-pagenavi span.current {
 	font-weight: bold;
 }
-
 
 /* ------------- HERO ----------- */
 
@@ -786,7 +796,7 @@ footer::before{
 .search-bar,
 .filters,
 .results {
-    padding: 0rem;
+    padding: 4rem 0;
     color: #ffffff;
 }
 
@@ -795,7 +805,6 @@ footer::before{
 }
 
 #searchbar {
-    padding: 0 2rem;
     height: 6rem;
     font-size: 18px;
 }
@@ -809,12 +818,8 @@ footer::before{
     border: none;
     padding: 3rem 1.5rem;
     position: relative;
-    top: -60px;
+    top: -80px;
     left: 2rem;
-}
-
-.filter-btn {
-    margin-bottom: 2rem;
 }
 
 .btn-icon img {
@@ -824,12 +829,8 @@ footer::before{
 }
 
 #filter {
-    margin-top: -90px;
+    margin-top: -40px;
     background-color: #e04d39;
-}
-
-.check-title-1 {
-    margin: 2rem 0 2rem 0;
 }
 
 .check-title,
@@ -872,7 +873,6 @@ td span {
     background-color: #0091D3;
     overflow-x: auto;
 }
-
 
 /*---------------------------------------404--------------------------------------*/
 

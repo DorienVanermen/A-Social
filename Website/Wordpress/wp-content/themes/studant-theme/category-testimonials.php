@@ -2,7 +2,11 @@
 
 <main>
 
-    <!-- NIEUWS -->
+<div class="text-hero">
+	<h1>TESTIMONIALS</h1>
+</div>
+
+    <!-- Testimonial -->
     <?php while(have_posts()): the_post()?>
 
     <div class="testimonial-post clearfix">

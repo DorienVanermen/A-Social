@@ -71,7 +71,6 @@ try
 		$query = $db->prepare("SELECT * FROM wp_onderwijs");
 	}
 
-
 	//EXECUTE
 	$query->execute();
 	while($row = $query->fetch(PDO::FETCH_ASSOC)) {
