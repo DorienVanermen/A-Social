@@ -2,6 +2,10 @@
 
 <main>
 
+<div class="text-hero">
+	<h1>NIEUWS</h1>
+</div>
+
     <!-- NIEUWS -->
     <?php while(have_posts()): the_post()?>
 

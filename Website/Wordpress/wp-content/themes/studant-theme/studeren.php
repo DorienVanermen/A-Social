@@ -10,6 +10,10 @@ include 'search-function.php';
 
 <main>
 
+<div class="text-hero">
+	<h1>STUDEREN</h1>
+</div>
+
     <form method="POST" id="searchForm">
         <div class="search-bar">
             <div class="container">
@@ -31,7 +35,7 @@ include 'search-function.php';
 
                     <div class="col-sm-12 col-md-4">
                         <div class="checkboxen">
-                            <p class="check-title check-title-1">Scholen</p>
+                            <p class="check-title">Scholen</p>
                             <div class="checkbox">
                                 <label><input type="checkbox" value="KDG" name="checkboxa[]" <?php if(isset($_POST["checkboxa"]) && in_array("KDG", $_POST["checkboxa"])) echo "checked='checked'"; ?>>Karel de Grote</label>
                             </div>
@@ -156,9 +160,9 @@ include 'search-function.php';
     <div class="results">
         <div class="container">
             <?php if (empty($printInhoud)): ?>
-            <p class="no-results">Geen resultaten gevonden<?php if(isset($_POST['query'])) echo " op '" . $_POST['query'] . "'" ?></p>
+            <p class="no-results">Geen resultaten gevonden</p>
             <?php else: ?>
-            <table class="table">
+            <table id="onderwijsTable" class="table">
                 <thead>
                     <tr>
                         <th>Richtingen</th>
