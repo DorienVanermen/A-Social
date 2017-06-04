@@ -860,15 +860,15 @@ td a:hover {
     color: #ffffff;
 }
 
-.table {
-    width: 1170px;
+.table, .dataTable, .no-footer {
+    width: 100%;
 }
 
 .table>tbody>tr>td {
     text-decoration: none;
     margin: 0;
     padding: 0;
-    height: 60px;
+    min-height: 60px;
 }
 
 .table>tbody>tr:hover {
@@ -894,6 +894,22 @@ td span {
 
 tr {
     width: 100%;
+}
+
+td:nth-child(4n+1), th:nth-child(4n+1) {
+    width: 50%;
+}
+
+td:nth-child(4n+2), th:nth-child(4n+2) {
+    width: 20%;
+}
+
+td:nth-child(4n+3), th:nth-child(4n+3) {
+    width: 12%;
+}
+
+td:nth-child(4n+4), th:nth-child(4n+4) {
+    width: 18%;
 }
 
 /*---------------------------------------404--------------------------------------*/

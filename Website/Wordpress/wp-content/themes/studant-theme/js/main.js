@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
         "stateSave":false,
         "searching": false,
         "bInfo": false,
-        "autoWidth": false,
+        "autoWidth": true,
         "bLengthChange":false,
         "pageLength": 25,
         "iDisplayLength": 25,
