@@ -79,7 +79,7 @@ public class Movement : MonoBehaviour
 			audio.Play ();
 		}
 
-    if (!IsGrounded() && gameObject.name == "Mascot")
+		if (!IsGrounded() && gameObject.name == "Mascot(Clone)")
     {
       if(Input.GetMouseButton(0))
       {
@@ -89,7 +89,7 @@ public class Movement : MonoBehaviour
       else
       {
         myRig.gravityScale = 1f;
-        anim.ResetTrigger("glide");
+        //anim.ResetTrigger("glide");
       }
     }
   }
