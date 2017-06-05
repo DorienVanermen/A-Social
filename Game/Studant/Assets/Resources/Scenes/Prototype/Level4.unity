@@ -1340,6 +1340,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1788928599250044, guid: 416aaedcaad4d4e4f88660a3e9f847c9, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 416aaedcaad4d4e4f88660a3e9f847c9, type: 2}
   m_IsPrefabParent: 0
@@ -3190,6 +3194,10 @@ Prefab:
     - target: {fileID: 1788928599250044, guid: 416aaedcaad4d4e4f88660a3e9f847c9, type: 2}
       propertyPath: m_Name
       value: Drolletje
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788928599250044, guid: 416aaedcaad4d4e4f88660a3e9f847c9, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 416aaedcaad4d4e4f88660a3e9f847c9, type: 2}

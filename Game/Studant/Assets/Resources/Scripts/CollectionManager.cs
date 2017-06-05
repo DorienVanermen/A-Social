@@ -85,7 +85,7 @@ public class CollectionManager : MonoBehaviour
 
       case "Vlaaikensgang":
         title.text = btnName;
-        description.text = "De geheime Vlaeykensgang dateert van het jaar 1591 en verbindt de Hoogstraat, de Oude Koornmarkt eb de Pelgrimstraat met elkaar.";
+        description.text = "De geheime Vlaeykensgang dateert van het jaar 1591 en verbindt de Hoogstraat, de Oude Koornmarkt en de Pelgrimstraat met elkaar.";
         pic.sprite = Resources.Load<Sprite>("Artwork/Vlaaikensgang") as Sprite;
         break;
 
@@ -115,7 +115,7 @@ public class CollectionManager : MonoBehaviour
 
       case "Vlot":
         title.text = "Het Vlot";
-        description.text = "Op het vlot kan je met een mooi uitzicht over de Schelde eventjes van al de stress weglopen, of uitdobberen?";
+        description.text = "Op het vlot kan je met een mooi uitzicht over de Schelde eventjes weg van al de stress, of kan je gewoon even uitdobberen?";
         pic.sprite = Resources.Load<Sprite>("Artwork/Vlot") as Sprite;
         break;
 
@@ -148,4 +148,5 @@ public class CollectionManager : MonoBehaviour
 		ToggleConfirmScreen ();
     Application.LoadLevel(Application.loadedLevel);
 	}
+
 }

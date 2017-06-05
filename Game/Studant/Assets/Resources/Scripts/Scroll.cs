@@ -271,7 +271,7 @@ public class Scroll : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHa
   private void NextScreen()
   {
     LerpToPage(_currentPage + 1);
-    if (_currentPage == 0 || _currentPage == 4)
+    if (_currentPage == 0 || _currentPage == 5)
     {
       buttonPlay.SetActive(false);
       collectionBttn.SetActive(false);
@@ -287,7 +287,7 @@ public class Scroll : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHa
   private void PreviousScreen()
   {
     LerpToPage(_currentPage - 1);
-    if (_currentPage == 0 || _currentPage == 4)
+    if (_currentPage == 0 || _currentPage == 5)
     {
       buttonPlay.SetActive(false);
       collectionBttn.SetActive(false);
