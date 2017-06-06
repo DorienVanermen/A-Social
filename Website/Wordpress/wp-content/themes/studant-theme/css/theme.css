@@ -792,6 +792,14 @@ footer::before{
     min-width: 100%;
 }
 
+.caption {
+    text-align: right;
+    padding: 1rem;
+    color: #ffffff;
+    position: relative;
+    bottom: -360px;
+}
+
 .post-info {
     position: absolute;
     top: 30%;

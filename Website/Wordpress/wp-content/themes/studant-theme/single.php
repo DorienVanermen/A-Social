@@ -4,7 +4,6 @@
     <section id="post">
 
         <?php while(have_posts()): the_post()?>
-
         <div class="col-sm-12 text-hero article-hero">
             <h1><?php the_title()?></h1>
             <h4 class="door">
@@ -13,9 +12,11 @@
             <img src="<?php bloginfo('template_url'); ?>/img/hero/lauraWolk.png" alt="Article hero">
         </div>
 
-
         <div class="post-img">
-            <?php the_post_thumbnail();?>
+            <?php the_post_thumbnail() ;?>
+            <?php if ( $caption = get_post( get_post_thumbnail_id() )->post_excerpt ) : ?>
+                <p class="caption">&copy; <?php echo $caption; ?></p>
+            <?php endif; ?>
         </div>
 
         <div class="inhoud">
@@ -27,3 +28,4 @@
 </main>
 
 <?php get_footer(); ?>
+
