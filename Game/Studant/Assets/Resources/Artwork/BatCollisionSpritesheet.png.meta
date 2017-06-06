@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 7a9206431e4114307b554581d30a4e41
+timeCreated: 1496669524
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BatCollisionSpritesheet_0
+    21300002: BatCollisionSpritesheet_1
+    21300004: BatCollisionSpritesheet_2
+    21300006: BatCollisionSpritesheet_3
+    21300008: BatCollisionSpritesheet_4
+    21300010: BatCollisionSpritesheet_5
+    21300012: BatCollisionSpritesheet_6
+    21300014: BatCollisionSpritesheet_7
+    21300016: BatCollisionSpritesheet_8
+    21300018: BatCollisionSpritesheet_9
+    21300020: BatCollisionSpritesheet_10
+    21300022: BatCollisionSpritesheet_11
+    21300024: BatCollisionSpritesheet_12
+    21300026: BatCollisionSpritesheet_13
+    21300028: BatCollisionSpritesheet_14
+    21300030: BatCollisionSpritesheet_15
+    21300032: BatCollisionSpritesheet_16
+    21300034: BatCollisionSpritesheet_17
+    21300036: BatCollisionSpritesheet_18
+    21300038: BatCollisionSpritesheet_19
+    21300040: BatCollisionSpritesheet_20
+    21300042: BatCollisionSpritesheet_21
+    21300044: BatCollisionSpritesheet_22
+    21300046: BatCollisionSpritesheet_23
+    21300048: BatCollisionSpritesheet_24
+    21300050: BatCollisionSpritesheet_25
+    21300052: BatCollisionSpritesheet_26
+    21300054: BatCollisionSpritesheet_27
+    21300056: BatCollisionSpritesheet_28
+    21300058: BatCollisionSpritesheet_29
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2143
+        width: 262
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2143
+        width: 264
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 2143
+        width: 264
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 2143
+        width: 263
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 2143
+        width: 262
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 2144
+        width: 262
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1597
+        width: 262
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1597
+        width: 264
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1597
+        width: 264
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1597
+        width: 263
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 1597
+        width: 262
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 1597
+        width: 262
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1066
+        width: 262
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1066
+        width: 264
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1066
+        width: 264
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1066
+        width: 263
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 1066
+        width: 262
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 1066
+        width: 262
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 262
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 520
+        width: 264
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 520
+        width: 264
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 520
+        width: 263
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 520
+        width: 262
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 520
+        width: 262
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 262
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 264
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 0
+        width: 264
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 0
+        width: 263
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 0
+        width: 262
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatCollisionSpritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 0
+        width: 262
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

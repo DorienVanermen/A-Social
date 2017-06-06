@@ -23,6 +23,8 @@ public class MainMenuManager : MonoBehaviour
 
       case 3:
         SceneManager.LoadScene("Level3"); break;
+      case 4:
+        SceneManager.LoadScene("Level4"); break;
     }
 
     //if (curpage == 1)

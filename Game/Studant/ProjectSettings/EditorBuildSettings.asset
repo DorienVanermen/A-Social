@@ -11,7 +11,7 @@ EditorBuildSettings:
     path: Assets/Scenes/TriviaTrial.unity
   - enabled: 1
     path: Assets/Resources/Scenes/Prototype/Main Menu.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Resources/Scenes/Prototype/Tutorial.unity
   - enabled: 1
     path: Assets/Resources/Scenes/Prototype/Collection.unity
@@ -35,3 +35,5 @@ EditorBuildSettings:
     path: Assets/Resources/Scenes/Prototype/Level2.unity
   - enabled: 1
     path: Assets/Resources/Scenes/Prototype/Level3.unity
+  - enabled: 1
+    path: Assets/Resources/Scenes/Prototype/Level4.unity

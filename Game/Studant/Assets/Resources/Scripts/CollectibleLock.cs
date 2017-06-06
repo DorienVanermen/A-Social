@@ -124,29 +124,29 @@ public class CollectibleLock : MonoBehaviour
 
     if(study360Collected)
     {
-      Lock10.SetActive(true);
+      Lock10.SetActive(false);
     }
     else
     {
-      Lock10.SetActive(false);
+      Lock10.SetActive(true);
     }
 
     if(studayCollected)
     {
-      Lock11.SetActive(true);
+      Lock11.SetActive(false);
     }
     else
     {
-      Lock11.SetActive(false);
+      Lock11.SetActive(true);
     }
 
     if(vlotCollected)
     {
-      Lock12.SetActive(true);
+      Lock12.SetActive(false);
     }
     else
     {
-      Lock12.SetActive(false);
+      Lock12.SetActive(true);
     }
 
 		if (cookieboxCollected && gloveCollected && bookCollected && okapiCollected && cathedralCollected && containerCollected && vlaaikensgangCollected && ruienCollected && mhkaCollected && study360Collected && studayCollected && vlotCollected)
