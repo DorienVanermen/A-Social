@@ -2,8 +2,9 @@
 
 <main>
 
-<div class="text-hero">
-	<h1>TESTIMONIALS</h1>
+<div class="col-sm-12 text-hero testimonial-hero">
+    <h1>TESTIMONIALS</h1>
+    <img src="<?php bloginfo('template_url'); ?>/img/hero/lauraballon.png" alt="Testimonial hero">
 </div>
 
     <!-- Testimonial -->

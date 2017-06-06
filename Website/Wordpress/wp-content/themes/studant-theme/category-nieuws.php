@@ -2,8 +2,9 @@
 
 <main>
 
-<div class="text-hero">
-	<h1>NIEUWS</h1>
+<div class="col-sm-12 text-hero nieuws-hero">
+    <h1>NIEUWS</h1>
+    <img src="<?php bloginfo('template_url'); ?>/img/hero/lauraBord.png" alt="Nieuws hero">
 </div>
 
     <!-- NIEUWS -->
