@@ -10,11 +10,13 @@ include 'search-function.php';
 
 <main>
 
-<div class="text-hero">
-	<h1>STUDEREN</h1>
-</div>
+    <div class="col-sm-12 text-hero studeren-hero">
+        <h1>STUDEREN</h1>
+        <img src="<?php bloginfo('template_url'); ?>/img/hero/lauraPotlood.png" alt="Studeren hero">
+    </div>
 
-    <form method="POST" id="searchForm">
+
+    <form method="POST" id="searchForm" class="clearfix">
         <div class="search-bar">
             <div class="container">
                 <div class="col-sm-12">

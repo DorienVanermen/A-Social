@@ -1,5 +1,7 @@
 <?php
 
+header('Content-Type: text/html; charset=utf-8');
+
 $postQuery 		= $_POST['query'];
 $postGraad 		= $_POST['checkboxa'];
 $postSchool 	= $_POST['checkboxb'];
@@ -8,7 +10,7 @@ $postCategorie 	= $_POST['checkboxc'];
 try
 {
 	//Connect to db
-	$db = new PDO('mysql:host=localhost;dbname=wordpress_studant_v2','root','123');
+	$db = new PDO('mysql:charset=utf8;host=localhost;dbname=wordpress_studant_v2','root','123');
 	$dbmessage = "Connection successful";
 
 	//Queries

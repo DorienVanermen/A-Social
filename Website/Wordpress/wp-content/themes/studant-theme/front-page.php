@@ -25,17 +25,18 @@ include 'search-function.php';
     <section id="icon-link">
         <div class="container">
             <div class="all-icons">
-                <div class="icon-wrapper ">
-                    <a href="<?= home_url('/nieuws')?>">
-                            <img src="<?php bloginfo('template_url'); ?>/img/icon/icon-news.png" alt="Nieuws" class="icon">
-                            <h4>NIEUWS</h4>
+
+                <div class="icon-wrapper">
+                    <a href="<?= home_url('/category/testimonials/')?>">
+                            <img src="<?php bloginfo('template_url'); ?>/img/icon/icon-testim.png" alt="Testimonials" class="icon">
+                            <h4>TESTIMONIALS</h4>
                         </a>
                 </div>
 
-                <div class="icon-wrapper">
-                    <a href="<?= home_url('/testimonials')?>">
-                            <img src="<?php bloginfo('template_url'); ?>/img/icon/icon-testim.png" alt="Testimonials" class="icon">
-                            <h4>TESTIMONIALS</h4>
+                <div class="icon-wrapper ">
+                    <a href="<?= home_url('/category/nieuws/')?>">
+                            <img src="<?php bloginfo('template_url'); ?>/img/icon/icon-news.png" alt="Nieuws" class="icon">
+                            <h4>NIEUWS</h4>
                         </a>
                 </div>
 
