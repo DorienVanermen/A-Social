@@ -109,7 +109,7 @@ public class GameManager : MonoBehaviour
     diamonds = 0;
     isPaused = false;
     screenIsNotActive = true;
-	allCollected = PlayerPrefsX.GetBool("allIsCollected");
+	  allCollected = PlayerPrefsX.GetBool("allIsCollected");
 	
   }
 
@@ -118,25 +118,25 @@ public class GameManager : MonoBehaviour
     player = GameObject.FindGameObjectWithTag("Player");
 
     //if you died and one clicks open trivia 
-    if (youdiedScreen.activeSelf && Input.anyKey)
+    if (youdiedScreen.activeInHierarchy == true && Input.anyKey)
     {
       ToggleYouDied();
     }
 
     //if trivia was correct and you click continue game
-    if (triviaCorrScreen.activeSelf && Input.anyKey)
+    if (triviaCorrScreen.activeInHierarchy == true && Input.anyKey)
     {
       ToggleTriviaCorr();
     }
 
     //if trivia was wrong and you click show gameover
-    if (triviaWrongScreen.activeSelf && Input.anyKey)
+    if (triviaWrongScreen.activeInHierarchy == true && Input.anyKey)
     {
       ToggleTriviaWrong();
     }
 
     //pause timer upon end
-    if (endScreen.activeSelf == false)
+    if (endScreen.activeInHierarchy == false)
     {
       UpdateTimerUI();
       SetScore();
@@ -145,6 +145,11 @@ public class GameManager : MonoBehaviour
     {
       mascotBlock.SetActive(false);
     }
+
+	if(characterSelectPanel.activeInHierarchy == true)
+	{
+		SetTimeScale (0);
+	}
   }
 
   public void SetTimeScale(float time)
@@ -152,8 +157,12 @@ public class GameManager : MonoBehaviour
     Time.timeScale = time;
     if (time == 0)
     {
-      gameUI.SetActive(false);
       isPaused = true;
+
+      if( characterSelectPanel.activeInHierarchy == false)
+      {
+        gameUI.SetActive(false);
+      }
     }
     else
     {
@@ -266,7 +275,7 @@ public class GameManager : MonoBehaviour
   {
     triviaWrongScreen.SetActive(false);
 
-    if (gameOverMenu.activeSelf)
+    if (gameOverMenu.activeInHierarchy == true)
     {
       gameOverMenu.SetActive(false);
     }
@@ -281,7 +290,7 @@ public class GameManager : MonoBehaviour
 
   public void PauseToggle()
   {
-    if (pauseMenu.activeSelf)
+    if (pauseMenu.activeInHierarchy == true)
     {
       pauseMenu.SetActive(false);
       SetTimeScale(1);
@@ -316,7 +325,7 @@ public class GameManager : MonoBehaviour
 
   public void AudioOn()
   {
-    if (gameOverMenu.activeSelf)
+    if (gameOverMenu.activeInHierarchy == true)
     {
       audioOnBtnGO.SetActive(true);
       audioOffBtnGO.SetActive(false);
@@ -332,7 +341,7 @@ public class GameManager : MonoBehaviour
 
   public void AudioOff()
   {
-    if (gameOverMenu.activeSelf)
+    if (gameOverMenu.activeInHierarchy == true)
     {
       audioOnBtnGO.SetActive(false);
       audioOffBtnGO.SetActive(true);
@@ -436,7 +445,7 @@ public class GameManager : MonoBehaviour
 
   public void ToggleYouDied()
   {
-    if (youdiedScreen.activeSelf)
+    if (youdiedScreen.activeInHierarchy == true)
     {
       youdiedScreen.SetActive(false);
       TriviaToggle();
@@ -452,7 +461,7 @@ public class GameManager : MonoBehaviour
 
   public void ToggleTriviaCorr()
   {
-    if (triviaCorrScreen.activeSelf)
+    if (triviaCorrScreen.activeInHierarchy == true)
     {
       triviaCorrScreen.SetActive(false);
       RespawnPlayer();
@@ -467,7 +476,7 @@ public class GameManager : MonoBehaviour
 
   public void ToggleTriviaWrong()
   {
-    if (triviaWrongScreen.activeSelf)
+    if (triviaWrongScreen.activeInHierarchy == true)
     {
       triviaWrongScreen.SetActive(false);
       GameOverToggle();
@@ -519,6 +528,7 @@ public class GameManager : MonoBehaviour
 
   public void SelectCharacter(int characterIndex)
   {
+	SetTimeScale (1);
     characterSelectPanel.SetActive(false);
     GameObject spawnedPlayer = Instantiate(characters[characterIndex], spawnPos, Quaternion.identity) as GameObject;
     m = spawnedPlayer.GetComponent<Movement>();
