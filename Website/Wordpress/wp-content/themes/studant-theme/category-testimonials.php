@@ -4,7 +4,7 @@
 
 <div class="col-sm-12 text-hero testimonial-hero">
     <h1>TESTIMONIALS</h1>
-    <img src="<?php bloginfo('template_url'); ?>/img/hero/lauraballon.png" alt="Testimonial hero">
+    <img src="<?php bloginfo('template_url'); ?>/img/hero/lauraBallon.png" alt="Testimonial hero">
 </div>
 
     <!-- Testimonial -->
