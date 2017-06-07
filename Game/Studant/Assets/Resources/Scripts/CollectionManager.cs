@@ -131,7 +131,7 @@ public class CollectionManager : MonoBehaviour
 
 	public void ToggleConfirmScreen()
 	{
-		if(confirmScreen.activeSelf)
+		if(confirmScreen.activeInHierarchy == true)
 		{
 			confirmScreen.SetActive(false);
 		}

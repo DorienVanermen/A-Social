@@ -13,7 +13,7 @@ public class TutorialManager : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
   {
-      if (staminaTutorial.activeSelf && Input.anyKey)
+      if (staminaTutorial.activeInHierarchy == true && Input.anyKey)
       {
         staminaTutorial.SetActive(false);
         gm.SetTimeScale(1);
