@@ -128,32 +128,8 @@ h6 {
     color: white;
 }
 
-h1 {
-    text-size: 47.68px;
-}
-
-h2 {
-    text-size: 39.813px;
-}
-
-h3 {
-    text-size: 33.178px;
-}
-
-h4 {
-    text-size: 27.648px;
-}
-
-h5 {
-    text-size: 23.04px;
-}
-
-h6 {
-    text-size: 19.2px;
-}
-
 p {
-    text-size: 16px;
+    font-size: 16px;
     color: white;
 }
 
@@ -188,7 +164,8 @@ a:hover,
     z-index: 0;
 }
 
-.text-hero h1, .text-hero h4 {
+.text-hero h1,
+.text-hero h4 {
     line-height: 300px;
     z-index: 100;
     position: absolute;
@@ -218,8 +195,7 @@ main {
 .btn-default {
     background-color: rgba(0, 0, 0, 0.35);
     color: white;
-    margin: auto;
-    display: block;
+    margin: 0 auto;
     margin-top: 4rem;
 }
 
@@ -234,6 +210,19 @@ main {
 .btn-default:hover {
     border-color: white;
     background-color: white;
+}
+
+.btn, .btn-default {
+    margin: 0 auto;
+}
+
+.video-content .btn {
+    margin-top: 8rem;
+    display: block;
+}
+
+.btn {
+    display: inline-block;
 }
 
 
@@ -321,34 +310,53 @@ div#navbar.navbar-collapse.collapse.in {
         background-color: #7FCAD3;
         border-color: #7FCAD3;
     }
+    .text-hero img {
+        display: none;
+    }
+    .text-hero {
+        height: 150px;
+    }
+    .text-hero h1,
+    .text-hero h4 {
+        line-height: 150px;
+    }
+    .text-hero h4 {
+        top: 50px;
+    }
 }
+
 
 /* ------------- Pagina's ----------- */
 
-.wp-pagenavi, .dataTables_paginate {
+.wp-pagenavi,
+.dataTables_paginate {
     padding: 2rem 0;
-	clear: both;
+    clear: both;
     text-align: center;
     color: #ffffff;
     font-size: 18px;
 }
 
-.wp-pagenavi a, .wp-pagenavi span, .dataTables_paginate a {
+.wp-pagenavi a,
+.wp-pagenavi span,
+.dataTables_paginate a {
     color: #ffffff;
-	text-decoration: none;
+    text-decoration: none;
     width: 100%;
-	padding: 3px 5px;
-	margin: 2px;
+    padding: 3px 5px;
+    margin: 2px;
     cursor: pointer;
 }
 
-.wp-pagenavi a:hover, .wp-pagenavi span.current {
-	border-color: #000;
+.wp-pagenavi a:hover,
+.wp-pagenavi span.current {
+    border-color: #000;
 }
 
 .wp-pagenavi span.current {
-	font-weight: bold;
+    font-weight: bold;
 }
+
 
 /* ------------- HERO ----------- */
 
@@ -606,12 +614,12 @@ div#navbar.navbar-collapse.collapse.in {
 }
 
 .store {
-    float: right;
+    margin: 0 auto;
 }
 
 .store img {
     margin-top: 5em;
-    margin-right: 3em;
+    margin-right: 1em;
     transition: all 0.1s ease-in-out;
 }
 
@@ -627,7 +635,6 @@ div#navbar.navbar-collapse.collapse.in {
 .icon-wrapper-game {
     width: 50%;
     float: left;
-    
 }
 
 
@@ -662,16 +669,20 @@ div#navbar.navbar-collapse.collapse.in {
     max-width: 800px;
 }
 
+.quotescollection-quote p {
+    font-size: 24px;
+}
+
 .author {
     color: #ffffff;
 }
 
-footer::before{
+footer::before {
     content: none;
     display: none;
 }
 
-.attribution{
+.attribution {
     color: #ffffff;
 }
 
@@ -698,8 +709,8 @@ footer::before{
     top: 10px;
 }
 
-
-.nieuws-post, .testimonial-post {
+.nieuws-post,
+.testimonial-post {
     width: 100%;
     height: 400px;
     overflow: hidden;
@@ -720,6 +731,7 @@ footer::before{
     height: 100%;
     display: inline-block;
 }
+
 .testimonial-post:nth-child(odd)>.nieuws-post-foto,
 .testimonial-post:nth-child(even)>.nieuws-post-text,
 .nieuws-post:nth-child(odd)>.nieuws-post-foto,
@@ -840,9 +852,10 @@ footer::before{
     background-color: #6ec34c;
 }
 
+
 /*------------------- STUDIEAANBOD ---------------*/
 
-.studeren-hero img{
+.studeren-hero img {
     top: -15px;
     left: -20px;
 }
@@ -869,6 +882,7 @@ footer::before{
 }
 
 .table {
+    width: 100%;
     margin-bottom: 0;
 }
 
@@ -905,10 +919,6 @@ td a:hover {
     color: #ffffff;
 }
 
-.table, .dataTable, .no-footer {
-    width: 100%;
-}
-
 .table>tbody>tr>td {
     text-decoration: none;
     margin: 0;
@@ -941,21 +951,26 @@ tr {
     width: 100%;
 }
 
-td:nth-child(4n+1), th:nth-child(4n+1) {
+td:nth-child(4n+1),
+th:nth-child(4n+1) {
     width: 50%;
 }
 
-td:nth-child(4n+2), th:nth-child(4n+2) {
+td:nth-child(4n+2),
+th:nth-child(4n+2) {
     width: 20%;
 }
 
-td:nth-child(4n+3), th:nth-child(4n+3) {
+td:nth-child(4n+3),
+th:nth-child(4n+3) {
     width: 12%;
 }
 
-td:nth-child(4n+4), th:nth-child(4n+4) {
+td:nth-child(4n+4),
+th:nth-child(4n+4) {
     width: 18%;
 }
+
 
 /*---------------------------------------404--------------------------------------*/
 
@@ -1040,7 +1055,6 @@ td:nth-child(4n+4), th:nth-child(4n+4) {
     .image-box {
         display: none;
     }
-    
     .image-box img,
     .image-box-right img {
         display: none;
@@ -1071,9 +1085,17 @@ td:nth-child(4n+4), th:nth-child(4n+4) {
         margin: 0px;
         padding: 0px;
     }
+    .nieuws-post-text-pad {
+        padding: 1rem 2rem;
+    }
 }
 
 @media only screen and (max-width: 633px) {
+    .testimonials-post,
+    .testimonials-post1,
+    .testimonials-post2 {
+        height: auto;
+    }
     /*-----NIEUWS----*/
     .nieuws-post-foto img,
     .testimonials-post-foto img {
@@ -1099,6 +1121,49 @@ td:nth-child(4n+4), th:nth-child(4n+4) {
     .nieuws-post-button {
         margin-top: 5%;
         margin-left: 15%;
+    }
+    .inhoud {
+        background-color: #F9B01E;
+        min-height: 500px;
+        padding: 2% 5%;
+    }
+    .post-img {
+        height: 200px;
+    }
+    .nieuws-post-foto,
+    .nieuws-post-text {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .store img {
+        width: 35%;
+    }
+    .news-indicator {
+        left: 36%;
+    }
+    .testimonial-indicator {
+        left: 75%;
+        margin: 0;
+    }
+    .video-content h3 {
+        margin-top: 16%;
+    }
+    .video-content btn-default {
+        margin-top: 6rem;
+    }
+    .nieuws-post-foto,
+    .nieuws-post-text {
+        /*--------------------------------max-height:400px; WEG --------------------*/
+    }
+    .testimonial-post,
+    .nieuws-post {
+        /*--------------------------------height:400px; WEG --------------------*/
+    }
+    row {
+        margin-right: 0px;
+        margin-left: 0px;
     }
 }
 

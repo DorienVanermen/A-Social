@@ -362,12 +362,14 @@ include 'search-function.php';
 
                 </div>
 
-            </div>
-
-            <div class="store">
+                            <div class="store">
                 <a href=""><img src="<?php bloginfo('template_url'); ?>/img/icon/playstore.png" alt="trivia"></a>
                 <a href=""><img src="<?php bloginfo('template_url'); ?>/img/icon/appstore.png" alt="trivia"></a>
              </div>
+
+            </div>
+
+
 
             </div>
 

@@ -164,7 +164,7 @@ include 'search-function.php';
             <?php if (empty($printInhoud)): ?>
             <p class="no-results">Geen resultaten gevonden</p>
             <?php else: ?>
-            <table id="onderwijsTable" class="table">
+            <table id="onderwijsTable" class="table" width="100%">
                 <thead>
                     <tr>
                         <th>Richtingen</th>

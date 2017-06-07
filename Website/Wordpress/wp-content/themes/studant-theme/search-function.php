@@ -1,7 +1,5 @@
 <?php
 
-header('Content-Type: text/html; charset=utf-8');
-
 $postQuery 		= $_POST['query'];
 $postGraad 		= $_POST['checkboxa'];
 $postSchool 	= $_POST['checkboxb'];
